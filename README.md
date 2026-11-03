@@ -1,4 +1,4 @@
-# Cedar High School Digital Yearbook
+# Seeta High School Digital Yearbook
 
 A responsive Next.js yearbook starter for a high-school graduating class moving on to university. The visual direction is editorial, warm and premium: deep navy, cream, muted gold and large photography.
 
