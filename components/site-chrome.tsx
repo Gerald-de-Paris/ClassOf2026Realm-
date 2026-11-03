@@ -11,9 +11,9 @@ const links = [
 
 export function SiteHeader() {
   return <header className="site-header">
-    <Link href="/" className="brand" aria-label="Cedar High School yearbook home">
-      <span className="brand-mark">C</span>
-      <span className="brand-name">CEDAR HIGH SCHOOL<small>THE YEARBOOK</small></span>
+    <Link href="/" className="brand" aria-label="Seeta High School yearbook home">
+      <span className="brand-mark">S</span>
+      <span className="brand-name">SEETA HIGH SCHOOL<small>THE YEARBOOK</small></span>
     </Link>
     <nav className="nav-links" aria-label="Main navigation">
       {links.map(link => <Link href={link.href} key={link.href}>{link.label}</Link>)}
@@ -25,7 +25,7 @@ export function SiteHeader() {
 
 export function SiteFooter() {
   return <footer className="site-footer">
-    <div className="footer-copy"><strong>CEDAR HIGH SCHOOL · THE YEARBOOK</strong><br/>One chapter together. A lifetime of memories.</div>
+    <div className="footer-copy"><strong>SEETA HIGH SCHOOL · THE YEARBOOK</strong><br/>One chapter together. A lifetime of memories.</div>
     <nav className="footer-nav" aria-label="Footer navigation">{links.map(link => <Link href={link.href} key={link.href}>{link.label}</Link>)}</nav>
     <span className="footer-end">MADE WITH MEMORIES ♡</span>
   </footer>;
