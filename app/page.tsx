@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="hero-image" aria-hidden="true" />
         <div className="hero-shade" />
         <div className="hero-content page-wrap">
-          <p className="eyebrow light-eyebrow"><span /> CEDAR HIGH SCHOOL · GRADUATING CLASS</p>
+          <p className="eyebrow light-eyebrow"><span /> SEETA HIGH SCHOOL · GRADUATING CLASS</p>
           <h1>One chapter together.<br /><em>A lifetime of memories.</em></h1>
           <p className="hero-copy">Before the next adventure begins, let’s remember the people, the laughter and the little moments that made these years ours.</p>
           <div className="hero-actions">
@@ -20,7 +20,7 @@ export default function HomePage() {
           <div className="hero-note"><span className="note-line" /> A keepsake for everything we shared</div>
         </div>
         <div className="hero-bottom page-wrap">
-          <span>OUR SCHOOL YEARS</span><span className="hero-bottom-center">FRIENDS TODAY. ALUMNI TOMORROW.</span><span>CEDAR FOREVER <ArrowDownRight size={14} /></span>
+          <span>OUR SCHOOL YEARS</span><span className="hero-bottom-center">FRIENDS TODAY. ALUMNI TOMORROW.</span><span>SEETA FOREVER <ArrowDownRight size={14} /></span>
         </div>
       </section>
 
@@ -30,14 +30,14 @@ export default function HomePage() {
           <h2>We came as students.<br /><em>We leave as a story.</em></h2>
           <div className="intro-text">
             <p>These pages hold more than names and photographs. They hold friendships we didn’t expect, lessons we’ll carry, and moments that will make us smile long after the final bell.</p>
-            <p>Wherever university and life take us, a little piece of Cedar goes with us.</p>
+            <p>Wherever university and life take us, a little piece of Seeta goes with us.</p>
             <Link className="text-link" href="/about">The story behind this yearbook <ArrowRight size={16} /></Link>
           </div>
         </div>
         <div className="stat-row">
           <div><strong>One</strong><span>unforgettable chapter</span></div>
           <div><strong>Many</strong><span>paths ahead</span></div>
-          <div><strong>Always</strong><span>part of Cedar</span></div>
+          <div><strong>Always</strong><span>part of Seeta</span></div>
         </div>
       </section>
 
@@ -80,7 +80,7 @@ export default function HomePage() {
       <section className="quote-band">
         <div className="quote-mark">“</div>
         <p>We may be leaving the same place,<br />but we’re taking different dreams into the world.</p>
-        <span>CEDAR HIGH SCHOOL · OUR GRADUATING CLASS</span>
+        <span>SEETA HIGH SCHOOL · OUR GRADUATING CLASS</span>
       </section>
 
       <section className="next-chapter page-wrap section-pad">
