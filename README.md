@@ -27,7 +27,7 @@ Use simple filenames, for example:
 - `student-01.jpg`
 - `student-02.jpg`
 - `memory-01.jpg`
-- `cedar-campus.jpg`
+- `seeta-campus.jpg`
 
 Then edit `lib/yearbook-data.ts` and update the image paths, names, bios, captions and milestones.
 
@@ -51,7 +51,7 @@ Open `http://localhost:3000`.
 ## 4. Upload the project to GitHub
 
 1. Download and extract this ZIP.
-2. Create a new **empty** GitHub repository, e.g. `cedar-high-school-yearbook`.
+2. Create a new **empty** GitHub repository, e.g. `seeta-high-school-yearbook`.
 3. Upload the project files and folders to the repository. Make sure `package.json`, `app`, `components`, `lib`, and `public` are at the repository root.
 4. Commit the files.
 
@@ -60,9 +60,9 @@ If you use Git on your computer, from the extracted project folder you can run:
 ```bash
 git init
 git add .
-git commit -m "Build Cedar High School yearbook starter"
+git commit -m "Build Seeta High School yearbook starter"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/cedar-high-school-yearbook.git
+git remote add origin https://github.com/YOUR-USERNAME/seeta-high-school-yearbook.git
 git push -u origin main
 ```
 
